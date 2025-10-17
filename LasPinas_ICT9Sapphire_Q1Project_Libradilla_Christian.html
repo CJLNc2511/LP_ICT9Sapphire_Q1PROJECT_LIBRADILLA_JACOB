@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q1 Project</title>w
+  <link rel="stylesheet" href="project.css">
+  <style>
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h2>Hi! my name is Jacob Libradilla</h2>
+    <p>A Web coder from OB Montessori.</p>
+  </div>
+
+  <br><br><br><br>
+
+  <p id="txt">About me and who I am</p>
+  <ul>
+    <li>I am an OB student who transferred not so long ago from another school.</li>
+    <li>I'm a Roman Catholic who has learned to accept herself.</li>
+    <li>I may or may not be addicted to what most boys would call "white girl music".</li>
+  </ul>
+
+  <br>
+
+  <div class="box">
+    <p id="txt">My works</p>
+  </div>
+
+  <br><br>
+
+  <img src="Drill2.jpg" alt="I love Chappell Roan" style="width:375px;height:420px;">
+  <ul>
+    <li>Check box</li>
+    <li>Radio box</li>
+    <li>Text area</li>
+  </ul>
+
+  <img src="Seatwork1.jpg" alt="Queen Tay" style="width:375px;height:420px;">
+  <ul>
+    <li>Hyperlink</li>
+    <li>Images</li>
+    <li>Internal CSS</li>
+  </ul>
+
+  <br>
+
+  <p id="txt">Contacting me</p>
+  <p>How did you come across me?</p>
+
+  <form action="/action_page.php">
+    <label for="fname">Your name:</label><br>
+    <input type="text" id="fname" name="fname" value="Jacob Libradilla"><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="text" id="email" name="email" value="libradilla.ca@obmontessori.edu.ph"><br><br>
+
+    <p>From where did you find me?</p>
+    <input type="radio" id="Youtube" name="where_you_heard_it_from" value="Youtube">
+    <label for="Youtube">Youtube</label><br>
+
+    <input type="radio" id="Instagram" name="where_you_heard_it_from" value="Instagram">
+    <label for="Instagram">Instagram</label><br>
+
+    <input type="radio" id="Pinterest" name="where_you_heard_it_from" value="Pinterest">
+    <label for="Pinterest">Pinterest</label><br>
+
+    <input type="radio" id="Others" name="where_you_heard_it_from" value="Others">
+    <label for="Others">Others</label><br><br>
+
+    <p>What purpose may you want me for?</p>
+    <input type="checkbox" id="check1" name="checkgrp">
+    <label for="check1">Web design</label><br>
+
+    <input type="checkbox" id="check2" name="checkgrp">
+    <label for="check2">Graphic designing</label><br>
+
+    <input type="checkbox" id="check3" name="checkgrp">
+    <label for="check3">Tutoring</label><br><br>
+
+    <p>How will you rate my Portfolio?</p>
+    <select id="menu" name="rating">
+      <option value="1">1 Star</option>
+      <option value="2">2 Star</option>
+      <option value="3">3 Star</option>
+      <option value="4">4 Star</option>
+      <option value="5">5 Star</option>
+    </select>
+
+    <br><br>
+
+    <p>What do you think of my Portfolio? Any comments you'd like to leave?</p>
+    <textarea id="feed" name="comment" rows="3" cols="30" placeholder="I think it is really colorful."></textarea>
+
+    <br><br>
+
+    <button type="submit" onclick="alert('Thank you for answering!!')">Submit!</button>
+  </form>
+
+</body>
+</html>
